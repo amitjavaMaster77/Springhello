@@ -15,4 +15,12 @@ public class Controller {
 		System.out.println("GET Department");
 		return "Hello";
 	}
+	
+	
+	@GetMapping("/lulu")                     //REST API End Point
+	public String lulu() {
+		System.out.println("GET Department");
+		return "<marquee><H1>All the Best Team Lulu01</H1></marquee>";
+	}
+	
 }
